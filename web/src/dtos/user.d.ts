@@ -1,7 +1,7 @@
 type UserAPIRole = "employee" | "manager";
 
 type UserAPIResponse = {
-  id: string;
+  token: string;
   user: {
     id: string;
     name: string;
