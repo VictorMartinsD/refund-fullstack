@@ -8,7 +8,7 @@ const CategoriesEnum = z.enum([
   "others",
   "services",
   "transport",
-  "accomodation",
+  "accommodation",
 ]);
 
 class RefundsController {
