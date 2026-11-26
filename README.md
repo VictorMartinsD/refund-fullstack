@@ -104,6 +104,9 @@ npm run dev
 ```
 
 O endereço exibido pelo Vite será usado no navegador, normalmente `http://localhost:5173`.
+A aplicação usa `http://localhost:3333` como endereço da API durante o desenvolvimento.
+
+Para produção, configure `VITE_API_URL` com a URL pública da API antes de executar `npm run build` (por exemplo, nas variáveis do workflow de deploy). O front-end e os comprovantes enviados precisam apontar para uma API hospedada e acessível publicamente.
 
 ## Scripts da API
 
